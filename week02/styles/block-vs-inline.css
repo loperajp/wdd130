@@ -10,6 +10,7 @@ body {
 
 p,
 div {
+    display: block;
     background-color: beige;
     margin: 1rem;
     padding: 1rem;
