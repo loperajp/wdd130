@@ -71,7 +71,8 @@ h1 {
 }
 
 section h2 {
-    border: 1px solid black width: 100%;
+    border: 1px solid black;
+    width: 100%;
     background-color: var(--accent1-color);
     padding: 3px;
     text-align: center;
@@ -79,7 +80,7 @@ section h2 {
     color: var(--secondary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     width: 100%;
@@ -98,12 +99,11 @@ article {
 }
 
 footer nav a img {
-    float: center;
+    float: right;
     width: 50px;
 }
 
 footer {
     margin-top: 1rem;
-    border-top: var(--border);
     text-align: center;
 }
